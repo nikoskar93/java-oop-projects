@@ -1,5 +1,10 @@
 package gr.aueb.cf.ch12.bankapp.model2;
 
+/**
+ *  The class for a bank Account.
+ *
+ * @author nikoskar93
+ */
 public class Account {
     private Holder holder;
     private String iban;
@@ -79,11 +84,21 @@ public class Account {
         return getBalance();
     }
 
+    /**
+     *  Prints the account information as a string.
+     * @return the account info.
+     */
     public String getAccountState() {
         return "(" + holder.getId() + ", " + iban + ", " + holder.getFirstname() + ", "
                 + holder.getLastname() + ", " + holder.getSsn() + ", " + balance + ")";
     }
 
+    /**
+     *  Check if the ssn is valid.
+     * @param ssn the given ssn
+     * @return true, if the given ssn matches the account's ssn,
+     *          false otherwise
+     */
     private boolean isSsnValid(String ssn) {
         return holder.getSsn().equals(ssn);
     }

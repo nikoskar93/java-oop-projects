@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"gr.aueb.cf.ch12.bankapp.main"},{"l":"gr.aueb.cf.ch12.bankapp.main2"},{"l":"gr.aueb.cf.ch12.bankapp.model"},{"l":"gr.aueb.cf.ch12.bankapp.model2"}]

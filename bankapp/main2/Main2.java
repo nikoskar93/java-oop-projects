@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch12.bankapp;
+package gr.aueb.cf.ch12.bankapp.main2;
 
 import gr.aueb.cf.ch12.bankapp.model2.Account;
 import gr.aueb.cf.ch12.bankapp.model2.Holder;

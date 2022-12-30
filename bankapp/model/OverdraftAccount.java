@@ -96,7 +96,6 @@ public class OverdraftAccount {
      * @throws Exception
      *          if the ssn is not valid.
      */
-
     public void withdrawOverdraft(double amount, String ssn) throws Exception {
         try {
             if (!isSsnValid(ssn)) throw new Exception("Ssn not valid exception");

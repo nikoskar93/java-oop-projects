@@ -1,4 +1,4 @@
-package gr.aueb.cf.ch12.bankapp;
+package gr.aueb.cf.ch12.bankapp.main;
 
 import gr.aueb.cf.ch12.bankapp.model.JointAccount;
 import gr.aueb.cf.ch12.bankapp.model.OverdraftAccount;

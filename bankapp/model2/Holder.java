@@ -3,7 +3,7 @@ package gr.aueb.cf.ch12.bankapp.model2;
 /**
  * The Holder of a bank account.
  *
- * @author nikoskar
+ * @author nikoskar93
  */
 public class Holder {
     private Long id;
